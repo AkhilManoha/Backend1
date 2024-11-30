@@ -1,0 +1,15 @@
+let collegeName=new String("gnit college");
+console.log(collegeName);
+console.log(collegeName.toLowerCase());
+console.log(collegeName.toUpperCase());
+console.log(collegeName.length);
+console.log(collegeName.startsWith("gnit"));
+console.log(collegeName.startsWith("Gnit"));
+console.log(collegeName.startsWith("college"));
+console.log(collegeName.endsWith("gnit"));
+console.log(collegeName.endsWith("college"));
+console.log(collegeName.endsWith("College"));
+console.log(collegeName.includes("gnit"));
+console.log(collegeName.includes("college"));
+console.log(collegeName.repeat(2));
+console.log(`hi now i am studying in ${collegeName} `);
